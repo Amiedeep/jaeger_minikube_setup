@@ -1,0 +1,7 @@
+dependencies:
+- name: elastic
+  repository: https://helm.elastic.co
+  version: 8.0.0-SNAPSHOT
+- name: jaegertracing/jaeger
+  repository: https://jaegertracing.github.io/helm-charts
+  version: 0.32.0
