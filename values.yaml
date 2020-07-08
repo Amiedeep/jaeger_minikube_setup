@@ -1,0 +1,13 @@
+elasticsearch:
+  minimumMasterNodes: 1
+  replicas: 1
+
+jaeger:
+  provisionDataStore:
+    cassandra: false
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      host: elasticsearch-master
+      port: 9200
+
