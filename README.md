@@ -24,7 +24,3 @@ helm install --name release-name ./
 ```
 
 > **Note:** Elasticsearch will take some time to spin up. Meanwhile, Jaeger collector, and Jaeger query will be breaking. Wait for 2 minutes to reflect the changes in Jaeegr chart :)
-
-## Test setup
-
-Follow the helm-chart notes to test the setup.

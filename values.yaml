@@ -1,8 +1,15 @@
 elasticsearch:
+  service:
+    type: NodePort
+    nodePort: 30001
   minimumMasterNodes: 1
   replicas: 1
 
 jaeger:
+  query:
+    service:
+      type: NodePort
+      nodePort: 30002
   provisionDataStore:
     cassandra: false
   storage:
